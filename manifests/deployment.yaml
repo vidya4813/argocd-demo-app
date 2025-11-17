@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: nginx:1.25.2
+        image: nginx:wrongtag
         ports:
         - containerPort: 8080
